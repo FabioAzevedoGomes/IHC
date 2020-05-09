@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="button">A big Button</string>
+    <string name="text">This is some sample text for my first application</string>
+    <string name="activity_1">Activity 1 - Calculator</string>
+    <string name="activity_2">Activity 2 - Send / Receive</string>
+    <string name="activity_3">Activity 3 - Accelerometer</string>
+    <string name="number_1">Number 1</string>
+    <string name="number_2">Number 2</string>
+    <string name="sum">Sum!</string>
+    <string name="result">Result</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="enter_a_message">Enter a Message!</string>
+    <string name="send">Send!</string>
+    <string name="recieved_text">Received Text</string>
+    <string name="x">X:</string>
+    <string name="y">Y:</string>
+    <string name="z">Z:</string>
+    <string name="don_t_shake_me">Don\'t shake me!</string>
+    <string name="activity_4_5_sensors">Activity 4 + 5 - Sensors</string>
+    <string name="activity_6_coordinates">Activity 6 - Coordinates</string>
+    <string name="light_intensity">Light Intensity:</string>
+    <string name="temperature">Temperature:</string>
+    <string name="gyroscope_x">Gyroscope X:</string>
+    <string name="gyroscope_y">Gyroscope Y:</string>
+    <string name="gyroscope_z">Gyroscope Z:</string>
+</resources>

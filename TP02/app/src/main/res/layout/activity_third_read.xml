@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivityRead">
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="308dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/coordinate_x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/x"
+            android:inputType="textPersonName"
+            android:text="@string/x" />
+
+        <EditText
+            android:id="@+id/coordinate_y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/y"
+            android:inputType="textPersonName"
+            android:text="@string/y" />
+
+        <EditText
+            android:id="@+id/coordinate_z"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/z"
+            android:inputType="textPersonName"
+            android:text="@string/z" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
